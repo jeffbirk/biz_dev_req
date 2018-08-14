@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When Withdraw request is ticked, show the Withdrawn reason field and make it mandatory.</description>
+        <field>u_withdrawn</field>
+        <global>true</global>
+        <messages/>
+        <name>Show Withdrawn reason when box ticked</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   // when Withdraw request is ticked, set "Withdrawn reason" to show and is mandatory unless we're loading
+	// and set Deny request to read-only
+	if (newValue === 'true') {
+		if (!isLoading)
+			g_form.clearValue('u_withdrawn_reason');
+		g_form.setDisplay('u_withdrawn_reason', true);
+		g_form.setMandatory('u_withdrawn_reason', true);
+		g_form.setReadOnly('u_denied', true);
+	} else {
+		g_form.setMandatory('u_withdrawn_reason', false);
+		g_form.setDisplay('u_withdrawn_reason', false);
+		g_form.setReadOnly('u_denied', false);
+	}	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>esalaz0</sys_created_by>
+        <sys_created_on>2017-07-06 17:58:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>014ac26d37ff7e4057c365e2b3990e3c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Show Withdrawn reason when box ticked</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Business Development Request" source="x_grwcm_business_d">878cd83837eb3240b3579b7a93990ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Business Development Request">878cd83837eb3240b3579b7a93990ede</sys_scope>
+        <sys_update_name>sys_script_client_014ac26d37ff7e4057c365e2b3990e3c</sys_update_name>
+        <sys_updated_by>esalaz0</sys_updated_by>
+        <sys_updated_on>2017-07-06 18:05:39</sys_updated_on>
+        <table>x_grwcm_business_d_businessdevelopmentrequest</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

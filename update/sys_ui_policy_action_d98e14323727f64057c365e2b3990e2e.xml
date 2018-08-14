@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_approval_for_assignment</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>jbirkx0</sys_created_by>
+        <sys_created_on>2017-06-27 20:59:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d98e14323727f64057c365e2b3990e2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_approval_for_assignment</sys_name>
+        <sys_package display_value="Business Development Request" source="x_grwcm_business_d">878cd83837eb3240b3579b7a93990ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Business Development Request">878cd83837eb3240b3579b7a93990ede</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d98e14323727f64057c365e2b3990e2e</sys_update_name>
+        <sys_updated_by>jbirkx0</sys_updated_by>
+        <sys_updated_on>2017-06-27 20:59:05</sys_updated_on>
+        <table>x_grwcm_business_d_businessdevelopmentrequest</table>
+        <ui_policy display_value="Awaiting DEV Resources state - show Approval for Assignment">598e94fe37e3f64057c365e2b3990ec7</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_grwcm_business_d_businessdevelopmentrequest">stateIN12,13,14,15,16^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="12,13,14,15,16"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>225</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Awaiting DEV Resources state - show Approval for Assignment</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>jbirkx0</sys_created_by>
+        <sys_created_on>2017-06-27 20:59:05</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>598e94fe37e3f64057c365e2b3990ec7</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Awaiting DEV Resources state - show Approval for Assignment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Business Development Request" source="x_grwcm_business_d">878cd83837eb3240b3579b7a93990ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Business Development Request">878cd83837eb3240b3579b7a93990ede</sys_scope>
+        <sys_update_name>sys_ui_policy_598e94fe37e3f64057c365e2b3990ec7</sys_update_name>
+        <sys_updated_by>jbirkx0</sys_updated_by>
+        <sys_updated_on>2017-07-14 18:34:12</sys_updated_on>
+        <table>x_grwcm_business_d_businessdevelopmentrequest</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

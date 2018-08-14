@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="wf_workflow_version" version="2" view="new_workflow">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="wf_workflow_version" element="NULL" name="wf_workflow_version" parent="NULL" relationship="NULL" sys_domain="global" view="df296e5cff723100f03bffffffffff87">46bf99576fc06200ea1e199fae3ee480</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>jbirkx0</sys_created_by>
+            <sys_created_on>2017-03-01 15:41:53</sys_created_on>
+            <sys_id>5c5aeb6437193280b3579b7a93990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jbirkx0</sys_updated_by>
+            <sys_updated_on>2017-03-01 15:41:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>table</element>
+            <list_id display_value="wf_workflow_version" element="NULL" name="wf_workflow_version" parent="NULL" relationship="NULL" sys_domain="global" view="df296e5cff723100f03bffffffffff87">46bf99576fc06200ea1e199fae3ee480</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>jbirkx0</sys_created_by>
+            <sys_created_on>2017-03-01 15:41:53</sys_created_on>
+            <sys_id>dc5aeb6437193280b3579b7a93990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jbirkx0</sys_updated_by>
+            <sys_updated_on>2017-03-01 15:41:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>published</element>
+            <list_id display_value="wf_workflow_version" element="NULL" name="wf_workflow_version" parent="NULL" relationship="NULL" sys_domain="global" view="df296e5cff723100f03bffffffffff87">46bf99576fc06200ea1e199fae3ee480</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>jbirkx0</sys_created_by>
+            <sys_created_on>2017-03-01 15:41:53</sys_created_on>
+            <sys_id>505aeb6437193280b3579b7a93990e4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jbirkx0</sys_updated_by>
+            <sys_updated_on>2017-03-01 15:41:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>checked_out_by</element>
+            <list_id display_value="wf_workflow_version" element="NULL" name="wf_workflow_version" parent="NULL" relationship="NULL" sys_domain="global" view="df296e5cff723100f03bffffffffff87">46bf99576fc06200ea1e199fae3ee480</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>jbirkx0</sys_created_by>
+            <sys_created_on>2017-03-01 15:41:53</sys_created_on>
+            <sys_id>d05aeb6437193280b3579b7a93990e4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jbirkx0</sys_updated_by>
+            <sys_updated_on>2017-03-01 15:41:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="wf_workflow_version" element="NULL" name="wf_workflow_version" parent="NULL" relationship="NULL" sys_domain="global" view="df296e5cff723100f03bffffffffff87">46bf99576fc06200ea1e199fae3ee480</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>jbirkx0</sys_created_by>
+            <sys_created_on>2017-03-01 15:41:53</sys_created_on>
+            <sys_id>545aeb6437193280b3579b7a93990e4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jbirkx0</sys_updated_by>
+            <sys_updated_on>2017-03-01 15:41:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="wf_workflow_version" element="NULL" name="wf_workflow_version" parent="NULL" relationship="NULL" sys_domain="global" view="df296e5cff723100f03bffffffffff87">46bf99576fc06200ea1e199fae3ee480</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>jbirkx0</sys_created_by>
+            <sys_created_on>2017-03-01 15:41:53</sys_created_on>
+            <sys_id>d45aeb6437193280b3579b7a93990e4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jbirkx0</sys_updated_by>
+            <sys_updated_on>2017-03-01 15:41:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="wf_workflow_version" element="NULL" name="wf_workflow_version" parent="NULL" relationship="NULL" sys_domain="global" view="df296e5cff723100f03bffffffffff87">46bf99576fc06200ea1e199fae3ee480</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>jbirkx0</sys_created_by>
+            <sys_created_on>2017-03-01 15:41:53</sys_created_on>
+            <sys_id>585aeb6437193280b3579b7a93990e4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jbirkx0</sys_updated_by>
+            <sys_updated_on>2017-03-01 15:41:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="wf_workflow_version" element="NULL" name="wf_workflow_version" parent="NULL" relationship="NULL" sys_domain="global" view="df296e5cff723100f03bffffffffff87">46bf99576fc06200ea1e199fae3ee480</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>jbirkx0</sys_created_by>
+            <sys_created_on>2017-03-01 15:41:53</sys_created_on>
+            <sys_id>d85aeb6437193280b3579b7a93990e4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jbirkx0</sys_updated_by>
+            <sys_updated_on>2017-03-01 15:41:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>wf_workflow_version</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>esalaz0</sys_created_by>
+            <sys_created_on>2017-07-11 15:14:55</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>9006d38f377ffe40b3579b7a93990ecb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>wf_workflow_version</sys_name>
+            <sys_package display_value="Business Development Request" source="x_grwcm_business_d">878cd83837eb3240b3579b7a93990ede</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Business Development Request">878cd83837eb3240b3579b7a93990ede</sys_scope>
+            <sys_update_name>sys_ui_list_wf_workflow_version_new_workflow</sys_update_name>
+            <sys_updated_by>esalaz0</sys_updated_by>
+            <sys_updated_on>2017-07-11 15:14:55</sys_updated_on>
+            <sys_user display_value="Eddy Salazar">53e18bd2371eb600b3579b7a93990e70</sys_user>
+            <view display_value="New Workflow" name="new_workflow">df296e5cff723100f03bffffffffff87</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

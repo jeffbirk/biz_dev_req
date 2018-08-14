@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Business Development  Request" max_length="40" name="x_grwcm_business_d_businessdevelopmentrequest" sizeclass="27" type="collection">
+        <element label="Development Approval" max_length="32" name="u_approval_for_assignment" reference="sys_user_group" reference_qual="parent=9f025afa37e47100c9af27d2b3990e44^EQ" reference_qual_condition="parent=9f025afa37e47100c9af27d2b3990e44^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Business objective" max_length="40" name="u_business_objective" type="string">
+            <choice>
+                <element label="Growth" sequence="0" value="Growth"/>
+                <element label="Profit" sequence="1" value="Profit"/>
+                <element label="Service" sequence="2" value="Service"/>
+                <element label="Compliance" sequence="3" value="Compliance"/>
+            </choice>
+        </element>
+        <element hint="Use this field to explain in detail what is wanted or needed from this request. (Screenshots can be pasted into this field)" label="Business request description" max_length="65536" name="u_business_request_description" type="html"/>
+        <element hint="Use this field to explain in detail the value to the Business that completing this request will meet. (Screenshots can be pasted into this field) " label="Business value" max_length="65536" name="u_business_value" type="html"/>
+        <element label="Deny request" max_length="40" name="u_denied" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Denied reason" max_length="400" name="u_denied_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="No" label="Has this been discussed with Supervisor/Manager?" max_length="40" name="u_discussion" type="string">
+            <choice>
+                <element label="No" sequence="0" value="No"/>
+                <element label="Yes" sequence="1" value="Yes"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requested by" mandatory="true" max_length="32" name="u_requested_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Supervisor or Manager" max_length="32" name="u_supmanager" reference="sys_user" type="reference"/>
+        <element label="Withdraw request" max_length="40" name="u_withdrawn" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Withdrawn reason" max_length="400" name="u_withdrawn_reason" type="string"/>
+        <element label="With whom?" max_length="32" name="u_with_whom" reference="sys_user" type="reference"/>
+    </element>
+</database>

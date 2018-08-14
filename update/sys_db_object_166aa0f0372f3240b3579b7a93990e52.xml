@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Business Development  Request</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_grwcm_business_d_businessdevelopmentrequest</name>
+        <number_ref display_value="DEVREQ">3b0ce074372f3240b3579b7a93990ed6</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class display_value="Task" name="task">b32723600f23210036ce6509b1050e28</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>esalaz0</sys_created_by>
+        <sys_created_on>2017-06-21 16:50:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>166aa0f0372f3240b3579b7a93990e52</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Business Development  Request</sys_name>
+        <sys_package display_value="Business Development Request" source="x_grwcm_business_d">878cd83837eb3240b3579b7a93990ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Business Development Request">878cd83837eb3240b3579b7a93990ede</sys_scope>
+        <sys_update_name>sys_db_object_166aa0f0372f3240b3579b7a93990e52</sys_update_name>
+        <sys_updated_by>jbirkx0</sys_updated_by>
+        <sys_updated_on>2017-06-27 19:02:50</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="x_grwcm_business_d.businessdevelopmentrequest_user" name="x_grwcm_business_d.businessdevelopmentrequest_user">d30c2c30372f3240b3579b7a93990e2a</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

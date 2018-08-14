@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>requestDEVApproval</action_name>
+        <active>true</active>
+        <client>true</client>
+        <comments/>
+        <condition>current.state == 12 &amp;&amp; current.canCreate() &amp;&amp;  (gs.hasRole("itil"))</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Request DEV Approval</name>
+        <onclick>actionsToPerform()</onclick>
+        <order>-100</order>
+        <script><![CDATA[// Client-side 'onClick' function
+function actionsToPerform() {
+	var msg = '';
+	// If there is no value in the field, do not let user continue
+	if(g_form.getValue('assigned_to') == ''){
+		if(msg == ''){
+			msg = "Assigned To";	
+		}else {
+			msg = msg + ", Assigned To";
+		}
+		g_form.setMandatory('assigned_to', true);
+	}
+	if(g_form.getValue('u_approval_for_assignment') == ''){
+		if(msg == ''){
+			msg = "Development Approval";	
+		}else {
+			msg = msg + ", Development Approval";
+		}
+		g_form.setMandatory('u_approval_for_assignment', true);
+	}
+	if(msg != ''){
+		msg = "Please complete the following fields to continue: " + msg + ". Once completed, click REQUEST DEV APPROVAL again.";
+		g_form.addErrorMessage(msg);
+		return false;
+	} else {
+	
+	// Call the UI Action, this time skipping the 'onClick' function
+	gsftSubmit(null, g_form.getFormElement(), 'requestDEVApproval');
+	
+	}
+}
+
+// Code that runs without 'onClick'
+// Ensure call to server-side function with no browswer errors
+if(typeof window == 'undefined') 
+	runServerSideCode();
+
+// Server-side function
+function runServerSideCode() {
+	//Update the record and have the page remain on the same record
+	current.state = 13;
+	current.update();
+	action.setRedirectURL(current);
+	
+	// Trigger the event for the notification email
+	gs.eventQueue('x_grwcm_business_d.sendApprovalEmail', current);
+}
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>esalaz0</sys_created_by>
+        <sys_created_on>2017-06-22 19:09:03</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>71d45a013767f24057c365e2b3990e7c</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>Request DEV Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Business Development Request" source="x_grwcm_business_d">878cd83837eb3240b3579b7a93990ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Business Development Request">878cd83837eb3240b3579b7a93990ede</sys_scope>
+        <sys_update_name>sys_ui_action_71d45a013767f24057c365e2b3990e7c</sys_update_name>
+        <sys_updated_by>esalaz0</sys_updated_by>
+        <sys_updated_on>2017-07-17 18:12:09</sys_updated_on>
+        <table>x_grwcm_business_d_businessdevelopmentrequest</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

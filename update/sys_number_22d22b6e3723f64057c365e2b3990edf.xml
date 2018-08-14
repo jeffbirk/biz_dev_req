@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_grwcm_business_d_business_development_request_task">x_grwcm_business_d_business_development_request_task</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>BDRTASK</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>jbirkx0</sys_created_by>
+        <sys_created_on>2017-06-27 16:38:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>22d22b6e3723f64057c365e2b3990edf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>BDRTASK</sys_name>
+        <sys_package display_value="Business Development Request" source="x_grwcm_business_d">878cd83837eb3240b3579b7a93990ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Business Development Request">878cd83837eb3240b3579b7a93990ede</sys_scope>
+        <sys_update_name>sys_number_22d22b6e3723f64057c365e2b3990edf</sys_update_name>
+        <sys_updated_by>jbirkx0</sys_updated_by>
+        <sys_updated_on>2017-06-27 16:39:04</sys_updated_on>
+    </sys_number>
+</record_update>

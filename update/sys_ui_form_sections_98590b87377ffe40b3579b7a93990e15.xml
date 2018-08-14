@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="98590b87377ffe40b3579b7a93990e15" sys_domain="global" table="x_grwcm_business_d_businessdevelopmentrequest" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>esalaz0</sys_created_by>
+            <sys_created_on>2017-07-11 14:19:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>60590b87377ffe40b3579b7a93990e18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_grwcm_business_d_businessdevelopmentrequest" name="x_grwcm_business_d_businessdevelopmentrequest" sys_domain="global" view="37c88387377ffe40b3579b7a93990e95">98590b87377ffe40b3579b7a93990e15</sys_ui_form>
+            <sys_ui_section caption="Business Development Request" display_value="Business Development Request" name="x_grwcm_business_d_businessdevelopmentrequest" sys_domain="global" view="37c88387377ffe40b3579b7a93990e95">54590b87377ffe40b3579b7a93990e13</sys_ui_section>
+            <sys_updated_by>esalaz0</sys_updated_by>
+            <sys_updated_on>2017-07-11 14:19:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>esalaz0</sys_created_by>
+            <sys_created_on>2017-07-11 14:19:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2c590b87377ffe40b3579b7a93990e18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_grwcm_business_d_businessdevelopmentrequest" name="x_grwcm_business_d_businessdevelopmentrequest" sys_domain="global" view="37c88387377ffe40b3579b7a93990e95">98590b87377ffe40b3579b7a93990e15</sys_ui_form>
+            <sys_ui_section caption="Request Write-Up" display_value="Request Write-Up" name="x_grwcm_business_d_businessdevelopmentrequest" sys_domain="global" view="37c88387377ffe40b3579b7a93990e95">10590b87377ffe40b3579b7a93990e14</sys_ui_section>
+            <sys_updated_by>esalaz0</sys_updated_by>
+            <sys_updated_on>2017-07-11 14:19:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>jbirkx0</sys_created_by>
+            <sys_created_on>2017-07-12 20:24:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1e86e12f37bfb28057c365e2b3990e45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_grwcm_business_d_businessdevelopmentrequest" name="x_grwcm_business_d_businessdevelopmentrequest" sys_domain="global" view="37c88387377ffe40b3579b7a93990e95">98590b87377ffe40b3579b7a93990e15</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_grwcm_business_d_businessdevelopmentrequest" sys_domain="global" view="37c88387377ffe40b3579b7a93990e95">9686e12f37bfb28057c365e2b3990e43</sys_ui_section>
+            <sys_updated_by>jbirkx0</sys_updated_by>
+            <sys_updated_on>2017-07-12 20:24:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>jbirkx0</sys_created_by>
+            <sys_created_on>2017-07-12 20:25:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2196adeb37bfb28057c365e2b3990e2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_grwcm_business_d_businessdevelopmentrequest" name="x_grwcm_business_d_businessdevelopmentrequest" sys_domain="global" view="37c88387377ffe40b3579b7a93990e95">98590b87377ffe40b3579b7a93990e15</sys_ui_form>
+            <sys_ui_section caption="Withdraw" display_value="Withdraw" name="x_grwcm_business_d_businessdevelopmentrequest" sys_domain="global" view="37c88387377ffe40b3579b7a93990e95">6d96adeb37bfb28057c365e2b3990e2a</sys_ui_section>
+            <sys_updated_by>jbirkx0</sys_updated_by>
+            <sys_updated_on>2017-07-12 20:25:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_grwcm_business_d_businessdevelopmentrequest</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>esalaz0</sys_created_by>
+            <sys_created_on>2017-07-11 14:19:30</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>98590b87377ffe40b3579b7a93990e15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_grwcm_business_d_businessdevelopmentrequest</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Business Development Request" source="x_grwcm_business_d">878cd83837eb3240b3579b7a93990ede</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Business Development Request">878cd83837eb3240b3579b7a93990ede</sys_scope>
+            <sys_update_name>sys_ui_form_sections_98590b87377ffe40b3579b7a93990e15</sys_update_name>
+            <sys_updated_by>esalaz0</sys_updated_by>
+            <sys_updated_on>2017-07-11 14:19:30</sys_updated_on>
+            <sys_user/>
+            <view display_value="User" name="User">37c88387377ffe40b3579b7a93990e95</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

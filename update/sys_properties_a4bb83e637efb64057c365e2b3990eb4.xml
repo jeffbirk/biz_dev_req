@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Business Development  Request activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_grwcm_business_d_businessdevelopmentrequest_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>jbirkx0</sys_created_by>
+        <sys_created_on>2017-06-27 14:57:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a4bb83e637efb64057c365e2b3990eb4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>glide.ui.x_grwcm_business_d_businessdevelopmentrequest_activity.fields</sys_name>
+        <sys_package display_value="Business Development Request" source="x_grwcm_business_d">878cd83837eb3240b3579b7a93990ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Business Development Request">878cd83837eb3240b3579b7a93990ede</sys_scope>
+        <sys_update_name>sys_properties_a4bb83e637efb64057c365e2b3990eb4</sys_update_name>
+        <sys_updated_by>jbirkx0</sys_updated_by>
+        <sys_updated_on>2017-07-12 20:30:10</sys_updated_on>
+        <type>string</type>
+        <value>u_requested_by,priority,state,u_discussion,u_with_whom,u_business_objective,business_service,u_approval_for_assignment,close_notes,opened_by,*Attachments*,short_description,u_business_request_description,u_business_value,work_notes,comments,*Email*,u_withdrawn,u_denied,u_denied_reason,u_withdrawn_reason</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=a4bb83e637efb64057c365e2b3990eb4"/>
+</record_update>
